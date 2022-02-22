@@ -10,7 +10,7 @@ import java.util.List;
 //API layer (talks to the service layer and the service layer to the data access layer)
 
 @RestController
-@RequestMapping(path = "api/v1/student")
+@RequestMapping(path = "/api/v1/student")
 public class StudentController {
     private final StudentService studentService;
 
